@@ -23,7 +23,7 @@ const ServicesPage = () => {
         <div className='m-10 flex items-center'>
           <section>
             <h2 className="text-4xl text-blue-700 font-semibold mb-8">Our Services</h2>
-            <p className="w-3/4 text-xl">At HopeTech, we offer a wide range of services designed to help you achieve your business goals. Whether you’re looking to build a new website from scratch, revamp your existing site, or develop custom web applications, we have the expertise and experience to deliver top-notch solutions tailored to your needs.</p>
+            <p className="w-3/4 text-xl">At CustomGlide, we offer a wide range of services designed to help you achieve your business goals. Whether you’re looking to build a new website from scratch, revamp your existing site, or develop custom web applications, we have the expertise and experience to deliver top-notch solutions tailored to your needs.</p>
           </section>
         </div>
 

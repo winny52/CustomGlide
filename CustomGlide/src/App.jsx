@@ -15,6 +15,7 @@ import ExpertiseSection from './components/Expertise';
 import DetailedProcess from './components/DetailedProcess';
 import ScrollToTopWrapper from './components/Wrapper';
 import Portfolio from './components/portfolio';
+import MiniFooter from './components/MiniFooter';
 import TawkTo from './components/Tawkto';
 const App = () => {
   
@@ -44,6 +45,7 @@ const App = () => {
         </div>
         <TawkTo/>
         <Footer />
+        <MiniFooter/>
       </div>
     </Router>
   );

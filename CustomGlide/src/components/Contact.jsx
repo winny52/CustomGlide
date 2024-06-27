@@ -28,7 +28,7 @@ const Contact = () => {
           <div>
             <h3 className="text-2xl text-gray-900 font-bold mb-4">Contact Information</h3>
             <p className="mb-4">You can reach us at:</p>
-            <p className="mb-2"><strong>Email:</strong> support@hopetech.com</p>
+            <p className="mb-2"><strong>Email:</strong> support@customglide.com</p>
             <p className="mb-2"><strong>Phone:</strong> Let's Talk! +1 (774) 393-2824</p>
             <p className="mb-4"><strong>Address:</strong> 144 North Rd, Sudbury, MA 01776</p>
           </div>

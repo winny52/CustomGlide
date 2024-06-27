@@ -37,8 +37,9 @@ const Solutions = () => {
       <p className="text-xl mb-4 text-center">
         At CustomGlide, we offer a comprehensive suite of services to propel your business forward:
       </p>
-      <div className="flex flex-col md:flex-row justify-between items-start">
-        <div className="flex flex-col gap-2 md:w-1/2">
+      <div className="flex flex-col items-center">
+        <img src={ServicesImage} alt="Services" className="rounded-xl shadow-lg w-full h-auto md:w-3/4 mb-8" />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
           {services.map((service, index) => (
             <div
               key={index}
@@ -61,17 +62,14 @@ const Solutions = () => {
             </div>
           ))}
         </div>
-        <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
-          <img src={ServicesImage} alt="Services" className="rounded-xl shadow-lg w-full h-auto md:w-3/4" />
+        <div className="mt-4 flex justify-center">
+          <button
+            onClick={handleClick}
+            className="px-4 py-2 bg-orange-600 text-white rounded hover:bg-blue-800 hover:text-white transition duration-300"
+          >
+            Explore Our Services
+          </button>
         </div>
-      </div>
-      <div className="mt-4 flex justify-center">
-        <button
-          onClick={handleClick}
-          className="px-4 py-2 bg-orange-600 text-white rounded hover:bg-blue-800 hover:text-white transition duration-300"
-        >
-          Explore Our Services
-        </button>
       </div>
     </div>
   );

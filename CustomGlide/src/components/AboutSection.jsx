@@ -11,7 +11,7 @@ const AboutSection =() => {
 
 
     return (
-      <div className=" font-sans about-page  py-4  pt-20 text-gray-900 p-6 flex justify-center items-center">
+      <div className=" font-sans about-page mt-1 mb-1  py-4  pt-20 text-gray-900 p-6 flex justify-center items-center">
         <div className="container m-4">
           <h2 className="text-4xl text-center text-blue-700 font-semibold mb-8">About CustomGlide</h2>
           <p className="w-full text-center text-xl">
