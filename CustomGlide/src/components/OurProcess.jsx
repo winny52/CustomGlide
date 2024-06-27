@@ -127,7 +127,7 @@ const ProcessPage = () => {
   };
 
   return (
-    <div className="mx-auto font-sans py-12 pt-20 px-4 md:px-8">
+    <div className="mx-auto font-sans  pt-20 px-4 md:px-8">
       <div className="container mx-auto p-4 bg-gray-200 rounded-xl shadow-2xl">
         <h2 className="text-4xl text-blue-700 font-bold text-center mb-8">Our Process: A Seamless Journey from Concept to Launch</h2>
         <div className="flex items-center justify-between">

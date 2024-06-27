@@ -13,7 +13,7 @@ function WhyChooseUs() {
 
   return (
     <div className=" font-sans  text-blue-900 pt-20">
-      <div className="container mx-auto py-12 px-4 md:px-8">
+      <div className="container mx-auto py-4 px-4 md:px-8">
         <div className="flex flex-col md:flex-row items-center md:m-10">
           <section className="md:w-1/2 md:mr-10">
             <h2 className="text-3xl md:text-4xl text-blue-700 font-semibold mb-4 md:mb-8">Why Choose CustomGlide?</h2>
