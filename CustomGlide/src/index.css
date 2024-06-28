@@ -1,6 +1,26 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+#tawkchat-container {
+  width: 100% !important;
+  height: 100% !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 9999 !important;
+}
+
+#tawkchat-status {
+  background-color: #10b981 !important; 
+  color: white !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 0.375rem !important; /* Tailwind rounded-md */
+}
+
+#tawkchat-status:hover {
+  background-color: #059669 !important; /* Tailwind green-600 */
+}
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
