@@ -2,8 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
+  const openChatWidget = (e) => {
+    e.preventDefault();
+    if (window.Tawk_API) {
+      window.Tawk_API.toggle();
+    }
+  };
+
   return (
-    <footer className=" font-sans bg-gray-900 text-white py-12 w-full">
+    <footer className="font-sans bg-gray-900 text-white py-12 w-full">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {/* Services */}
@@ -46,10 +53,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <ul className="space-y-2">
-              <li><Link to="/contact" className="hover:text-blue-400">Live Chat</Link></li>
+              <li><a href="#" onClick={openChatWidget} className="hover:text-blue-400">Live Chat</a></li>
               <li>Email: support@customglide.com</li>
-              <li>Phone Number:+1 (774) 393-2824
-</li>
+              <li>Phone Number: +1 (774) 393-2824</li>
               <li>Address: 144 North Rd, Sudbury, MA 01776</li>
             </ul>
           </div>

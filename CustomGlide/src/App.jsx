@@ -17,6 +17,8 @@ import ScrollToTopWrapper from './components/Wrapper';
 import Portfolio from './components/portfolio';
 import MiniFooter from './components/MiniFooter';
 import TawkTo from './components/Tawkto';
+import PrivacyPolicy from './components/privacyPolicy';
+import LegalPolicy from './components/legalpolicy';
 const App = () => {
   
   return (
@@ -39,7 +41,8 @@ const App = () => {
              <Route path="/about/expertise" element={<ExpertiseSection />} /> 
            <Route path="/detailedprocess" element={<DetailedProcess/>}/>\
            <Route path="/portfolio/our-work" element={<Portfolio />} />
-
+           <Route path="/legal-policy" element={<LegalPolicy/>}/>
+<Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
           </Routes>
           </ScrollToTopWrapper>
         </div>

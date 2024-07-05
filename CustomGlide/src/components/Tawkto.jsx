@@ -38,7 +38,7 @@ const TawkTo = () => {
       window.Tawk_API.onLoad = () => {
         window.Tawk_API.toggle();
         // Example: Resize the widget (adjust as per your Tawk.to settings)
-        window.Tawk_API.setWidgetSize(100, 200);
+        window.Tawk_API.setWidgetSize(35,35);
       };
     };
 

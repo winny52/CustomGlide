@@ -6,35 +6,30 @@ import liamDavis from '../assets/liamdavis.jpeg';
 import isabellaRoberts from '../assets/isabellaroberts.jpeg';
 import { useNavigate } from 'react-router-dom';
 
-// Update the testimonials array to include imported images
+
 const testimonials = [
   {
     clientName: "Emily Parker",
-    company: "The Forage",
     testimonial: "CustomGlide transformed our outdated website into a modern, user-friendly platform. Their team was professional, responsive, and dedicated to our success. We have seen a significant increase in traffic and conversions since the redesign.",
     imageUrl: emilyParker,
   },
   {
     clientName: "Jacob Thompson",
-    company: "Picmonic Picture Mmemonics",
     testimonial: "We partnered with CustomGlide to develop a custom web application for our business. The process was seamless, and the end result exceeded our expectations. Their expertise and attention to detail were evident throughout the project.",
     imageUrl: jacobThompson,
   },
   {
     clientName: "Olivia Green",
-    company: "FatJoe",
     testimonial: "CustomGlide’s SEO services have been a game-changer for our business. We have seen a dramatic improvement in our search engine rankings and an increase in organic traffic. Their team is knowledgeable, professional, and easy to work with.",
     imageUrl: oliviaGreen,
   },
   {
     clientName: "Liam Davis",
-    company: "Word Agents",
     testimonial: "Working with CustomGlide was a fantastic experience. Their team was knowledgeable, responsive, and dedicated to our success. They took the time to understand our needs and delivered a solution that exceeded our expectations.",
     imageUrl: liamDavis,
   },
   {
     clientName: "Isabella Roberts",
-    company: "Marcella New York",
     testimonial: "We have been working with CustomGlide for several years, and they continue to impress us with their quality of work and level of service. They are always available to answer questions and provide support, and their expertise has been invaluable to our business.",
     imageUrl: isabellaRoberts,
   },
@@ -61,7 +56,6 @@ const Testimonials = () => {
               <img src={testimonial.imageUrl} alt={testimonial.clientName} className="w-24 h-24 rounded-full mb-4" />
               <p className="italic mb-4">"{testimonial.testimonial}"</p>
               <p className="font-bold">{testimonial.clientName}</p>
-              <p className="text-sm">{testimonial.company}</p>
             </div>
           ))}
         </div>

@@ -6,15 +6,15 @@ import badge4 from '../assets/silversteve23.jpg';
 const Badges = () => {
   return (
     <div className="flex justify-center items-center mt-8 mb-8">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div className="flex justify-center items-center">
-          <img src={badge1} className="h-32 w-32 object-cover" />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+        <div className="flex justify-center items-center p-4">
+          <img src={badge1} className="h-32 w-32 object-cover" alt="Badge 1" />
         </div>
-        <div className="flex justify-center items-center">
-          <img src={badge3} className="h-32 w-32 object-cover" />
+        <div className="flex justify-center items-center p-4">
+          <img src={badge3} className="h-32 w-32 object-cover" alt="Badge 3" />
         </div>
-        <div className="flex justify-center items-center">
-          <img src={badge4} className="h-32 w-32 object-cover" />
+        <div className="flex justify-center items-center p-4">
+          <img src={badge4} className="h-32 w-32 object-cover" alt="Badge 4" />
         </div>
       </div>
     </div>
