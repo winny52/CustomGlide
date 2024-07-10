@@ -40,7 +40,7 @@ function AboutPage() {
   };
 
   const teamMembers = [
-    { name: 'Pula Moore', role: 'Project Manager', photo: photo1 },
+    { name: 'Kaytlyn King', role: 'Project Manager', photo: photo1 },
     { name: 'Mathew Horton', role: 'CEO', photo: photo2 },
     { name: 'Benjamin Wickham', role: 'Co-Founder', photo: photo3 },
     { name: 'Nancy Smith', role: 'COO', photo: photo4 },

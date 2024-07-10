@@ -2,7 +2,7 @@ import React from 'react';
 
 const PrivacyPolicy = () => {
   return (
-    <div className="container mx-auto mt-8 md:mt-8 py-8 px-4 md:px-8 text-center">
+    <div className="container mx-auto mt-24 md:mt-8 py-8 px-4 md:px-8 text-center">
       <h1 className="text-2xl md:text-3xl font-bold mb-4 text-blue-900">CustomGlide Privacy Policy</h1>
       <p className="mb-4">
         <strong className="text-blue-900 text-xl ">Our Commitment to Privacy</strong>

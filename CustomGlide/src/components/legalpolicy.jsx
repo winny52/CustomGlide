@@ -2,7 +2,7 @@ import React from 'react';
 
 const LegalPolicy = () => {
   return (
-    <div className="min-h-screen  mt-24  items-center ">
+    <div className="min-h-screen  pt-20 mt-24  items-center ">
       <div className="container mx-auto mt-8 md:mt-8 py-8 px-4 md:px-8  ">
         <h1 className="text-2xl md:text-3xl font-bold  text-center mb-4 text-blue-600">Procedures & Legal Policies</h1>
         <h2 className="text-xl md:text-2xl font-semibold  text-center mb-4 text-blue-600">Terms of Use</h2>
